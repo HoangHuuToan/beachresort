@@ -75,7 +75,7 @@ if (isset($_GET['id_new'])) {
 									$n = 0;
 									foreach ($data_news as $data_new) { ?>
 										<li>
-											<a href="#">
+											<a href="news.php?id_new=<?php echo $data_new['id']?>">
 												<?php echo $data_new['title_new'];
 												$n++;
 												if ($n == 3) {
