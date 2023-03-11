@@ -592,8 +592,7 @@ a
 .btn_order
 {
 	background-color: greenyellow;
-	height: 70px;
-	width: 200px !important;
+	height: 50px;
 }
 .btn_order:hover
 {
@@ -747,4 +746,20 @@ a
     background-color: var(--primaty-color);
     font-size: 1.2rem;
     color: white;
+}
+.detail_room
+{
+	width: 500px;
+}
+.icon
+{
+	font-size: 200px;
+	margin: 20px;
+}
+.content
+{
+	background-color: white;
+	width: 850px;
+	margin: auto;
+	text-align: center;
 }
